@@ -1,0 +1,1 @@
+<?php$senha = "!@#qazwsx!@#";echo md5(sha1(($senha)));

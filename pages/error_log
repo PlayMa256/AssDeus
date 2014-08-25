@@ -1,0 +1,197 @@
+[05-Aug-2014 18:16:49 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/adcosmop/public_html/sistema/conf/config.php:9) in /home/adcosmop/public_html/sistema/pages/list_membros.php on line 9
+[05-Aug-2014 18:21:03 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/adcosmop/public_html/sistema/function/format_data.php on line 17
+[05-Aug-2014 18:21:03 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/adcosmop/public_html/sistema/function/format_data.php on line 18
+[05-Aug-2014 18:21:03 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/adcosmop/public_html/sistema/function/format_data.php on line 17
+[05-Aug-2014 18:21:03 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/adcosmop/public_html/sistema/function/format_data.php on line 18
+[05-Aug-2014 19:08:12 America/Sao_Paulo] PHP Warning:  fopen(): Couldn't connect to server in /home/adcosmop/public_html/sistema/function/logs.php on line 19
+[05-Aug-2014 19:08:12 America/Sao_Paulo] PHP Warning:  fopen(http://localhost:7880/AssDeus/logs/erros_db.txt): failed to open stream: operation failed in /home/adcosmop/public_html/sistema/function/logs.php on line 19
+[05-Aug-2014 19:08:12 America/Sao_Paulo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/logs.php on line 20
+[05-Aug-2014 19:08:12 America/Sao_Paulo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/logs.php on line 21
+[05-Aug-2014 19:08:12 America/Sao_Paulo] PHP Warning:  fopen(): Couldn't connect to server in /home/adcosmop/public_html/sistema/function/logs.php on line 12
+[05-Aug-2014 19:08:12 America/Sao_Paulo] PHP Warning:  fopen(http://localhost:7880/AssDeus/logs/erros.txt): failed to open stream: operation failed in /home/adcosmop/public_html/sistema/function/logs.php on line 12
+[05-Aug-2014 19:08:12 America/Sao_Paulo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/logs.php on line 13
+[05-Aug-2014 19:08:12 America/Sao_Paulo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/logs.php on line 14
+[05-Aug-2014 19:09:07 America/Sao_Paulo] PHP Warning:  fopen(../logs/erros_db.txt): failed to open stream: Success in /home/adcosmop/public_html/sistema/function/logs.php on line 19
+[05-Aug-2014 19:09:07 America/Sao_Paulo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/logs.php on line 20
+[05-Aug-2014 19:09:07 America/Sao_Paulo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/logs.php on line 21
+[05-Aug-2014 19:09:07 America/Sao_Paulo] PHP Warning:  fopen(../logs/erros.txt): failed to open stream: Success in /home/adcosmop/public_html/sistema/function/logs.php on line 12
+[05-Aug-2014 19:09:07 America/Sao_Paulo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/logs.php on line 13
+[05-Aug-2014 19:09:07 America/Sao_Paulo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/logs.php on line 14
+[05-Aug-2014 19:09:50 America/Sao_Paulo] PHP Warning:  fopen(../logs/erros_db.txt): failed to open stream: Success in /home/adcosmop/public_html/sistema/function/logs.php on line 19
+[05-Aug-2014 19:09:50 America/Sao_Paulo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/logs.php on line 20
+[05-Aug-2014 19:09:50 America/Sao_Paulo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/logs.php on line 21
+[05-Aug-2014 19:09:50 America/Sao_Paulo] PHP Warning:  fopen(../logs/erros.txt): failed to open stream: Success in /home/adcosmop/public_html/sistema/function/logs.php on line 12
+[05-Aug-2014 19:09:50 America/Sao_Paulo] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/logs.php on line 13
+[05-Aug-2014 19:09:50 America/Sao_Paulo] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/logs.php on line 14
+[13-Aug-2014 18:45:05 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Aug-2014 18:45:05 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Aug-2014 18:45:05 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Aug-2014 18:45:05 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Aug-2014 18:45:05 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[13-Aug-2014 18:56:51 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Aug-2014 18:56:51 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/tmp/phprJm35q' is not a valid JPEG file in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Aug-2014 18:56:51 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Aug-2014 18:56:51 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Aug-2014 18:56:51 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Aug-2014 18:56:51 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[14-Aug-2014 09:12:35 America/Sao_Paulo] PHP Notice:  Undefined index: nomePai in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 663
+[14-Aug-2014 09:12:35 America/Sao_Paulo] PHP Notice:  Undefined index: nomeMae in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 664
+[14-Aug-2014 09:12:35 America/Sao_Paulo] PHP Notice:  Undefined index: conjuge in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 665
+[14-Aug-2014 09:16:28 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[14-Aug-2014 09:16:28 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[14-Aug-2014 09:16:28 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[14-Aug-2014 09:16:28 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[14-Aug-2014 09:16:28 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[14-Aug-2014 09:23:22 America/Sao_Paulo] PHP Notice:  Undefined index: nomePai in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 663
+[14-Aug-2014 09:23:22 America/Sao_Paulo] PHP Notice:  Undefined index: nomeMae in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 664
+[14-Aug-2014 09:23:22 America/Sao_Paulo] PHP Notice:  Undefined index: conjuge in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 665
+[14-Aug-2014 13:19:08 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/adcosmop/public_html/sistema/pages/membros_presentes.php on line 54
+[14-Aug-2014 13:19:37 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/adcosmop/public_html/sistema/pages/membros_presentes.php on line 54
+[14-Aug-2014 16:19:46 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/adcosmop/public_html/sistema/pages/membros_presentes.php on line 50
+[14-Aug-2014 13:26:56 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/membros_presentes.php on line 86
+[14-Aug-2014 13:30:52 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/membros_presentes.php on line 86
+[14-Aug-2014 22:34:39 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[14-Aug-2014 22:34:39 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[14-Aug-2014 22:34:39 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[14-Aug-2014 22:34:39 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[14-Aug-2014 22:34:39 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[14-Aug-2014 22:43:21 America/Sao_Paulo] PHP Notice:  Undefined index: nomePai in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[14-Aug-2014 22:43:21 America/Sao_Paulo] PHP Notice:  Undefined index: nomeMae in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[14-Aug-2014 22:43:21 America/Sao_Paulo] PHP Notice:  Undefined index: conjuge in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[14-Aug-2014 22:43:21 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/adcosmop/public_html/sistema/function/format_data.php on line 6
+[14-Aug-2014 22:43:21 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/adcosmop/public_html/sistema/function/format_data.php on line 7
+[14-Aug-2014 22:43:21 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[14-Aug-2014 22:43:21 America/Sao_Paulo] PHP Notice:  Use of undefined constant nome - assumed 'nome' in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[14-Aug-2014 22:47:59 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/permissoes.php on line 34
+[14-Aug-2014 22:48:06 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/permissoes.php on line 34
+[16-Aug-2014 11:46:34 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[16-Aug-2014 11:46:34 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[16-Aug-2014 11:46:34 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[16-Aug-2014 11:46:34 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[16-Aug-2014 11:46:34 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[18-Aug-2014 14:16:16 America/Sao_Paulo] PHP Notice:  Undefined index: nomePai in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 14:16:16 America/Sao_Paulo] PHP Notice:  Undefined index: nomeMae in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 14:16:16 America/Sao_Paulo] PHP Notice:  Undefined index: conjuge in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 14:17:28 America/Sao_Paulo] PHP Notice:  Undefined index: nomePai in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 14:17:28 America/Sao_Paulo] PHP Notice:  Undefined index: nomeMae in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 14:17:28 America/Sao_Paulo] PHP Notice:  Undefined index: conjuge in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 14:48:48 America/Sao_Paulo] PHP Notice:  Undefined index: nomePai in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 14:48:48 America/Sao_Paulo] PHP Notice:  Undefined index: nomeMae in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 14:48:48 America/Sao_Paulo] PHP Notice:  Undefined index: conjuge in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 15:21:48 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[18-Aug-2014 15:21:48 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[18-Aug-2014 15:21:48 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[18-Aug-2014 15:21:48 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[18-Aug-2014 15:21:48 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[18-Aug-2014 15:58:44 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[18-Aug-2014 15:58:44 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[18-Aug-2014 15:58:44 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[18-Aug-2014 15:58:44 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[18-Aug-2014 15:58:44 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[18-Aug-2014 16:28:37 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[18-Aug-2014 16:28:37 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[18-Aug-2014 16:28:37 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[18-Aug-2014 16:28:37 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[18-Aug-2014 16:28:37 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[18-Aug-2014 16:30:06 America/Sao_Paulo] PHP Notice:  Undefined index: nomePai in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 16:30:06 America/Sao_Paulo] PHP Notice:  Undefined index: nomeMae in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 16:30:06 America/Sao_Paulo] PHP Notice:  Undefined index: conjuge in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 16:37:09 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[18-Aug-2014 16:37:09 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[18-Aug-2014 16:37:09 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[18-Aug-2014 16:37:09 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[18-Aug-2014 16:37:09 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[18-Aug-2014 16:43:22 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[18-Aug-2014 16:43:22 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[18-Aug-2014 16:43:22 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[18-Aug-2014 16:43:22 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[18-Aug-2014 16:43:22 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[18-Aug-2014 16:53:13 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[18-Aug-2014 16:53:13 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[18-Aug-2014 16:53:13 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[18-Aug-2014 16:53:13 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[18-Aug-2014 16:53:13 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[18-Aug-2014 17:58:23 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[18-Aug-2014 17:58:23 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[18-Aug-2014 17:58:23 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[18-Aug-2014 17:58:23 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[18-Aug-2014 17:58:23 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[18-Aug-2014 17:59:50 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/permissoes.php on line 34
+[18-Aug-2014 17:59:54 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/permissoes.php on line 34
+[18-Aug-2014 18:34:40 America/Sao_Paulo] PHP Notice:  Undefined index: nomePai in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 18:34:40 America/Sao_Paulo] PHP Notice:  Undefined index: nomeMae in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 18:34:40 America/Sao_Paulo] PHP Notice:  Undefined index: conjuge in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 18:35:21 America/Sao_Paulo] PHP Notice:  Undefined index: nomePai in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 18:35:21 America/Sao_Paulo] PHP Notice:  Undefined index: nomeMae in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 18:35:21 America/Sao_Paulo] PHP Notice:  Undefined index: conjuge in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[18-Aug-2014 22:34:08 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/permissoes.php on line 34
+[18-Aug-2014 22:34:14 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/permissoes.php on line 34
+[18-Aug-2014 22:34:15 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/permissoes.php on line 34
+[18-Aug-2014 22:45:56 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/permissoes.php on line 34
+[19-Aug-2014 13:07:39 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[19-Aug-2014 13:07:39 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[19-Aug-2014 13:07:39 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[19-Aug-2014 13:07:39 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[19-Aug-2014 13:07:39 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[19-Aug-2014 14:01:19 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[19-Aug-2014 14:01:19 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[19-Aug-2014 14:01:19 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[19-Aug-2014 14:01:19 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[19-Aug-2014 14:01:19 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[19-Aug-2014 16:32:17 America/Sao_Paulo] PHP Notice:  Undefined variable: res in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 174
+[19-Aug-2014 19:34:18 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ']' in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 153
+[19-Aug-2014 17:01:58 America/Sao_Paulo] PHP Fatal error:  Call to undefined function vardump() in /home/adcosmop/public_html/sistema/pages/edit_congregacao.php on line 30
+[19-Aug-2014 22:43:36 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/adcosmop/public_html/sistema/pages/teste.php on line 13
+[20-Aug-2014 06:57:11 America/Sao_Paulo] PHP Notice:  Undefined index: nomePai in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 701
+[20-Aug-2014 06:57:11 America/Sao_Paulo] PHP Notice:  Undefined index: nomeMae in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 703
+[20-Aug-2014 06:57:11 America/Sao_Paulo] PHP Notice:  Undefined index: conjuge in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 704
+[20-Aug-2014 14:21:23 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 48
+[20-Aug-2014 16:15:06 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/adcosmop/public_html/sistema/pages/gera_cartao2.php on line 329
+[20-Aug-2014 15:33:23 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/membros_presentes_print.php on line 22
+[20-Aug-2014 15:33:23 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/membros_presentes_print.php on line 25
+[20-Aug-2014 19:20:12 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[20-Aug-2014 19:20:12 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[20-Aug-2014 19:20:12 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[20-Aug-2014 19:20:12 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[20-Aug-2014 19:20:12 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[20-Aug-2014 20:34:13 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[20-Aug-2014 20:34:13 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[20-Aug-2014 20:34:13 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[20-Aug-2014 20:34:13 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[20-Aug-2014 20:34:13 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[20-Aug-2014 20:34:21 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[20-Aug-2014 20:34:21 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[20-Aug-2014 20:34:21 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[20-Aug-2014 20:34:21 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[20-Aug-2014 20:34:21 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[20-Aug-2014 20:34:23 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[20-Aug-2014 20:34:23 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[20-Aug-2014 20:34:23 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[20-Aug-2014 20:34:23 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[20-Aug-2014 20:34:23 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[20-Aug-2014 20:34:37 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[20-Aug-2014 20:34:37 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[20-Aug-2014 20:34:37 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[20-Aug-2014 20:34:37 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[20-Aug-2014 20:34:37 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[20-Aug-2014 20:34:45 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[20-Aug-2014 20:34:45 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[20-Aug-2014 20:34:45 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[20-Aug-2014 20:34:45 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[20-Aug-2014 20:34:45 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[20-Aug-2014 20:38:16 America/Sao_Paulo] PHP Notice:  Undefined index: estadoCivil in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 756
+[20-Aug-2014 20:56:02 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[20-Aug-2014 20:56:02 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[20-Aug-2014 20:56:02 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[20-Aug-2014 20:56:02 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[20-Aug-2014 20:56:02 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[20-Aug-2014 21:03:47 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[20-Aug-2014 21:03:47 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[20-Aug-2014 21:03:47 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[20-Aug-2014 21:03:47 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[20-Aug-2014 21:03:47 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[21-Aug-2014 07:22:04 America/Sao_Paulo] PHP Notice:  Undefined index: estadoCivil in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 756
+[21-Aug-2014 07:22:04 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/adcosmop/public_html/sistema/function/format_data.php on line 6
+[21-Aug-2014 07:22:04 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/adcosmop/public_html/sistema/function/format_data.php on line 7
+[21-Aug-2014 07:22:04 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/adcosmop/public_html/sistema/function/format_data.php on line 6
+[21-Aug-2014 07:22:04 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/adcosmop/public_html/sistema/function/format_data.php on line 7
