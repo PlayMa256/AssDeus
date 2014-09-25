@@ -26,13 +26,20 @@ include "../function/logs.php";
                 <fieldset>
                     <span>Membros</span>
                     <?php
-                        $quantidade = 20;
+                        $quantidade = 40;
                         $pagina     = (isset($_GET['pagina'])) ? (int)$_GET['pagina'] : 1;
                         $inicio     = ($quantidade * $pagina) - $quantidade;
 
-                        $sql = mysql_query("SELECT nome, id FROM membros WHERE status = 0 LIMIT $inicio, $quantidade");
-                        while($res = mysql_fetch_array($sql)){
-                            echo '<div><input type="checkbox" value="'.$res['id'].'" name="membro_id[]"/> '.$res['nome'].'</div>';
+                        $procura_membros = mysql_query("SELECT * FROM membros WHERE status = 1 ORDER BY nome ASC LIMIT $inicio, $quantidade");
+                        while($ressultado = mysql_fetch_array($procura_membros)){
+
+                            $id = $ressultado['id'];
+                            $nome = $ressultado['nome'];
+                            if($nome != "Administrador"){
+                                echo "<input type='checkbox' name='membro_id[]' value='$id' />$nome<br/>";
+                            }else{}
+
+
                         }
                     ?>
                     <input type="hidden" name="acao" value="cadastrar" />
@@ -41,7 +48,7 @@ include "../function/logs.php";
             </form>
             <?php
                 //SQL para saber o total
-                $sqlTotal   = "SELECT id FROM permissao";
+                $sqlTotal   = "SELECT * FROM membros WHERE status = 1 ORDER BY nome ASC";
                 //Executa o SQL
                 $qrTotal    = mysql_query($sqlTotal) or die(mysql_error());
                 //Total de Registro na tabela
@@ -73,14 +80,17 @@ include "../function/logs.php";
             <?php if(isset($_POST['acao']) && $_POST['acao'] == 'cadastrar'){
                 $membro = $_POST['membro_id'];
                 $contar = count($membro);
+                $quantidade = 0;
                 for($i=0;$i<$contar;$i++){
                     $membro_id = $_POST['membro_id'][$i];
                     $inserir = mysql_query("INSERT INTO permissao (id_membro, status) VALUES('$membro_id', '1')") or Logs(mysql_error(), 2);
-                    if($inserir){
-                        echo '<div id="sucesso" style="margin-top:15px;">Permiss&atilde;o dada com sucesso!</div>';
-                    }else{
-                        echo '<div id="erro" style="margin-top:15px;">Erro ao dar permiss&atilde;o!</div>';
-                    }
+                    $quantidade++;
+                }
+
+                if($quantidade == $contar){
+                    echo '<div id="sucesso" style="margin-top:15px;">Permiss&atilde;o dada com sucesso!</div>';
+                }else{
+                    echo '<div id="erro" style="margin-top:15px;">Erro ao dar permiss&atilde;o!</div>';
                 }
             }?>
         </div><!--conteudo-->

@@ -96,29 +96,43 @@ include "../function/pega-nivel.php";
                 $alojamento = $id;
                 $qtdVagas = mysql_query("SELECT vagas FROM alojamentos WHERE id = 'alojamento'");
                 $resultado = mysql_fetch_array($qtdVagas);
-                $TotalVagas = $resultado['vagas'];
+                $vagasMasc = $resultado['VagasMasc'];
+                $vagasFem = $resultado['VagasFem'];
                 $QtdMembros = count($_POST['membro']);
+
                 //vagas é a quantidade de membros que o evento terá depois que for feito a retirada da quantidade de membros
                 //e das vagas
-                $vagas = $TotalVagas -$QtdMembros ;
+                $Vagas_Masc = 0;
+                $Vagas_Fem = 0;
+                $sucesso = 0;
                 $membro = $_POST['membro'];
-                if($vagas == 0 || $vagas < 0){
-                    echo '<div id="erro">Evento Cheio.</div>';
-                }else{
                     foreach($membro as $IdMembro){
-                       $inserir = mysql_query("INSERT INTO disposicao_membros_alojamento (id_alojamento, id_membro) VALUES('$alojamento', '$IdMembro')") or die(mysql_error());
-                       $update_alojamentos = mysql_query("UPDATE alojamentos SET vagas = '$vagas' WHERE id = '$alojamento'") or die(mysql_error());
-                        if($inserir && $update_alojamentos){
-                            echo '<div id="sucesso">Vagas do alojamento preenchidas, restam '.$vagas.' vagas.</div>';
-                        }else{
-                            echo '<div id="erro">Erro ao preencher vagas do alojamento </div>';
+                        $select_sexo = mysql_query("SELECT sexo FROM membros WHERE id = '$IdMembro'");
+                        $res = mysql_fetch_array($select_sexo);
+                        $sexo = $res['sexo'];
+
+                        switch($sexo){
+                            case "Feminino":
+                                $inserir = mysql_query("INSERT INTO disposicao_membros_alojamento (id_alojamento, id_membro) VALUES('$alojamento', '$IdMembro')") or die(mysql_error());
+                                $Vagas_Fem++;
+                                $sucesso++;
+                                break;
+                            case "Masculino":
+                                $inserir = mysql_query("INSERT INTO disposicao_membros_alojamento (id_alojamento, id_membro) VALUES('$alojamento', '$IdMembro')") or die(mysql_error());
+                                $Vagas_Masc++;
+                                $sucesso++;
+                                break;
                         }
-
                     }
+                $total_Vagas_Fem = $vagasFem-$Vagas_Fem;
+                $total_Vagas_Masc = $vagasMasc-$Vagas_Masc;
+                $update_alojamentos = mysql_query("UPDATE alojamentos SET VagasFem = '$total_Vagas_Fem' AND VagasMasc = '$total_Vagas_Masc'  WHERE id = '$alojamento'") or die(mysql_error());
+                if($update_alojamentos && $sucesso == $QtdMembros){
+                    echo '<div id="sucesso">Vagas do alojamento preenchidas, restam '.$total_Vagas_Masc.' vagas Masculinas e '.$total_Vagas_Fem.' vagas Femininas</div>';
+                }else{
+                    echo '<div id="erro">Erro ao preencher vagas do alojamento </div>';
                 }
-
             }
-
             ?>
         </div><!--conteudo-->
 
@@ -128,7 +142,7 @@ include "../function/pega-nivel.php";
 <div style="clear: both"></div>
 	</div><!--corpo-->
     <div id="footer" style="float:right;">
-        <a href="pages/contact.php">feito por: MGS</a>
+        <a href="contact.php">feito por: MGS</a>
     </div>
 
 </div><!--box-->

@@ -9,7 +9,7 @@ include_once "../function/format_data.php";
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title> | Sistema de Controle</title>
+	<title>Editar Reuni&atilde;o | Sistema de Controle</title>
     <link rel="stylesheet" href="../css/style.css"/>
     <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/menu.js"></script>
@@ -17,48 +17,7 @@ include_once "../function/format_data.php";
     <script type="text/javascript" src="../js/validate.js"></script>
     <script type="text/javascript">
         $(function(){
-            $('#data').mask('99-99-9999');
-            $("#formulario").validate({
-                rules:{
-                    titulo:{
-                        required: true, minlength:2
-                    },
-                    dirigente:{
-                        required:true
-                    },
-                    preletor:{
-                        required:true
-                    },
-                    tema:{
-                        required:true,
-                        minlength:5
-                    },
-                    tipo:{
-                        required:true
-                    },
-                    DataInicio:{
-                        required:true,
-                        date:true
-                    },
-                    DataFim:{
-                        required:true,
-                        date: true
-                    }
-                },
-                messages:{
-                    titulo:{required:"Preencha o campo Titulo", minlength: "O titulo tem que ter no minimo 2 caracteres"},
-                    dirigente: "Selecione um Dirigente",
-                    preletor: "Selecione um preletor",
-                    tema: {required:"Preencha o campo tema", minlength: "O tema tem que ter pelo menos 5 caracteres"},
-                    tipo: "Selecione um tipo de reuni&atilde;o",
-                    DataInicio: {required: "Preencha a data de inicio da reuni&atilde;o", date: "Preencha uma data valida"},
-                    DataFim: {required: "Preencha a data de termino da reuni&atilde;o", date: "Preencha uma data valida"},
-
-                }
-
-
-
-            })
+            $('.data').mask('99-99-9999')
         });
     </script>
 </head>
@@ -81,34 +40,29 @@ include_once "../function/format_data.php";
                         <span>Titulo</span>
                         <input type="text" name="titulo" value="<?php echo $res['titulo'];?>" />
                     </label>
-                    <span>Dirigente</span>
+                    <span>Dirigente: </span>
                     <select name="dirigente">
-                        <option value="" selected="selected">Selecione um dirigente</option>
                         <?php
                             $sql2 = mysql_query("SELECT id, nome FROM membros");
                             while($res2 = mysql_fetch_array($sql2)){
-                                if($res2['id'] == $res['dirigente']){
-                                    echo '<option value="'.$res['id'].'" selected="selected">'.$res['nome'].'</option>';
-                                    echo '<option value="'.$res['id'].'">'.$res['nome'].'</option>';
-                                }else{
-                                    echo '<option value="'.$res['id'].'">'.$res['nome'].'</option>';
-                                }
-
+                                 if($res2['id'] == $res['dirigente']){
+                                     echo '<option value="'.$res2['id'].'" selected="selected">'.$res2['nome'].'</option>';
+                                 }else{
+                                     echo '<option value="'.$res2['id'].'">'.$res2['nome'].'</option>';
+                                 }
                             }
                         ?>
                     </select>
 
                     <span>Preletor</span>
                     <select name="preletor">
-                        <option value="" selected="selected">Selecione um preletor</option>
                         <?php
                         $sql2 = mysql_query("SELECT id, nome FROM membros");
-                        while($res2 = mysql_fetch_array($sql)){
+                        while($res2 = mysql_fetch_array($sql2)){
                             if($res2['id'] == $res['preletor']){
-                                echo '<option value="'.$res['id'].'" selected="selected">'.$res['nome'].'</option>';
-                                echo '<option value="'.$res['id'].'">'.$res['nome'].'</option>';
+                                echo '<option value="'.$res2['id'].'" selected="selected">'.$res2['nome'].'</option>';
                             }else{
-                            echo '<option value="'.$res['id'].'">'.$res['nome'].'</option>';
+                                echo '<option value="'.$res2['id'].'">'.$res2['nome'].'</option>';
                             }
                         }
                         ?>
@@ -126,35 +80,35 @@ include_once "../function/format_data.php";
                                     case "Ministerial":
 
                                         echo '<option value="Ministerial" selected="selected" >Ministerial</option>
-                            <option value="Extraordinária"  >Extraordin&acute;ria</option>
+                            <option value="Extraordinária"  >Extraordin&aacute;ria</option>
                             <option value="Informativa" >Informativa</option>
                             <option value="Treinamento" >Treinamento</option>
                             <option value="Pastoral" >Pastoral</option>';
                                         break;
                                     case "Extraordinária":
                                         echo '<option value="Ministerial" >Ministerial</option>
-                            <option value="Extraordinária" selected="selected" >Extraordin&acute;ria</option>
+                            <option value="Extraordinária" selected="selected" >Extraordin&aacute;ria</option>
                             <option value="Informativa" >Informativa</option>
                             <option value="Treinamento" >Treinamento</option>
                             <option value="Pastoral" >Pastoral</option>';
                                         break;
                                     case "Informativa":
                                         echo '<option value="Ministerial" >Ministerial</option>
-                            <option value="Extraordinária" >Extraordin&acute;ria</option>
+                            <option value="Extraordinária" >Extraordin&aacute;ria</option>
                             <option value="Informativa" selected="selected" >Informativa</option>
                             <option value="Treinamento" >Treinamento</option>
                             <option value="Pastoral" >Pastoral</option>';
                                         break;
                                     case "Treinamento":
                                         echo '<option value="Ministerial" >Ministerial</option>
-                            <option value="Extraordinária" >Extraordin&acute;ria</option>
+                            <option value="Extraordinária" >Extraordin&aacute;ria</option>
                             <option value="Informativa" >Informativa</option>
                             <option value="Treinamento" selected="selected" >Treinamento</option>
                             <option value="Pastoral" >Pastoral</option>';
                                         break;
                                     case "Pastoral":
                                         echo '<option value="Ministerial" >Ministerial</option>
-                            <option value="Extraordinária" >Extraordin&acute;ria</option>
+                            <option value="Extraordinária" >Extraordin&aacute;ria</option>
                             <option value="Informativa" >Informativa</option>
                             <option value="Treinamento" >Treinamento</option>
                             <option value="Pastoral"  selected="selected">Pastoral</option>';
@@ -172,14 +126,17 @@ include_once "../function/format_data.php";
                     </label>
                     <label for="">
                         <span>Data In&iacute;cio</span>
-                        <input type="text" name="DataInicio" id="data" value="<? echo format_data_Normal($res['DataInicio']); ?>" />
+                        <input type="text" name="DataInicio" class="data" value="<? echo format_data_Normal($res['DataInicio']); ?>" />
                     </label>
                     <label for="">
                         <span>Data Fim</span>
-                        <input type="text" name="DataFim" id="data" value="<? echo format_data_Normal($res['DataFim']); ?>" />
+                        <input type="text" name="DataFim" class="data" value="<? echo format_data_Normal($res['DataFim']); ?>" />
                     </label>
+                    <span>Setores Participantes</span>
+                    <input type="text" name="setor" value="<?php echo $res['setores'];?>" />
+
                     <input type="hidden" name="acao" value="cadastrar" />
-                    <input type="submit" value="Enviar" />
+                    <input type="submit" value="Enviar" id="btn-submit" />
                 </fieldset>
             </form>
             <?php if(isset($_POST['acao']) && $_POST['acao'] == 'cadastrar'){
@@ -193,12 +150,19 @@ include_once "../function/format_data.php";
                 $dataInicio = format_data($dataInicio);
                 $DataFim = trim(strip_tags($_POST['DataFim']));
                 $DataFim = format_data($DataFim);
+                $setor = $_POST['setor'];
 
-                $sql = mysql_query("UPDATE reuniao SET  titulo = '$titulo' , dirigente = '$dirigente' , preletor = '$preletor' , tipo = '$tipo' , tema = '$tema' , obs = '$obs' , DataInicio = '$dataInicio' , DataFim = '$DataFim'") or die(mysql_error());
+                $id_reuniao = (int)$_GET['id'];
+
+                    $sql = mysql_query("UPDATE reuniao SET  titulo = '$titulo' , dirigente = '$dirigente' , preletor = '$preletor' ,
+                 tipo = '$tipo' , tema = '$tema' , obs = '$obs' , DataInicio = '$dataInicio' , DataFim = '$DataFim',
+                 setores = '$setor' WHERE id = '$id_reuniao'") or die(mysql_error());
+
+
                 if($sql){
-                    echo '<div id="sucesso">Dados Atualizados com sucesso</div>';
+                    echo '<script>alert("Dados Atualizados com sucesso!");location.href="edit_reuniao.php?id='.$id_reuniao.'";</script>';
                 }else{
-                    echo '<div id="erro">Problema ao atualizar dados da reuni&atilde;o</div>';
+                    echo '<script>alert("Problema ao atualizar dados da reuni&atilde;o");location.href="edit_reuniao.php?id='.$id_reuniao.'";</script>';
                 }
             }?>
         </div><!--conteudo-->

@@ -1,0 +1,22 @@
+[20-Aug-2014 11:24:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/volta-cidade-edit.php on line 7
+[20-Aug-2014 15:08:06 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/classifica_retorna_membros.php on line 94
+[20-Aug-2014 15:08:38 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/classifica_retorna_membros.php on line 94
+[27-Aug-2014 16:45:41 UTC] PHP Warning:  mysql_query(): Access denied for user 'adcosmop'@'localhost' (using password: NO) in /home/adcosmop/public_html/sistema/scripts/list-membros-script-case.php on line 16
+[27-Aug-2014 16:45:41 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/adcosmop/public_html/sistema/scripts/list-membros-script-case.php on line 16
+[27-Aug-2014 13:46:06 America/Sao_Paulo] PHP Warning:  include(paginacao.php): failed to open stream: No such file or directory in /home/adcosmop/public_html/sistema/scripts/list-membros-script-case.php on line 58
+[27-Aug-2014 13:46:06 America/Sao_Paulo] PHP Warning:  include(paginacao.php): failed to open stream: No such file or directory in /home/adcosmop/public_html/sistema/scripts/list-membros-script-case.php on line 58
+[27-Aug-2014 13:46:06 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'paginacao.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/adcosmop/public_html/sistema/scripts/list-membros-script-case.php on line 58
+[11-Sep-2014 19:34:47 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/adcosmop/public_html/sistema/scripts/edit_membros_ajax.php on line 165
+[11-Sep-2014 17:55:56 America/Sao_Paulo] PHP Warning:  unlink(../uploads/): Is a directory in /home/adcosmop/public_html/sistema/scripts/edit_membros_ajax.php on line 97
+[11-Sep-2014 17:57:33 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[11-Sep-2014 17:57:33 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/tmp/phpc0ds1E' is not a valid JPEG file in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[11-Sep-2014 17:57:33 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[11-Sep-2014 17:57:33 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[11-Sep-2014 17:57:33 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[11-Sep-2014 17:57:33 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[11-Sep-2014 17:57:33 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[11-Sep-2014 17:57:33 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/tmp/phpc0ds1E' is not a valid JPEG file in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[11-Sep-2014 17:57:33 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[11-Sep-2014 17:57:33 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[11-Sep-2014 17:57:33 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[11-Sep-2014 17:57:33 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11

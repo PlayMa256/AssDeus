@@ -31,6 +31,7 @@
     <schema name="" catalog="system_gr"/>
     <schema name="" catalog="test"/>
     <schema name="" catalog="testdb"/>
+    <schema name="" catalog="testesunicamp"/>
     <schema name="" catalog="tf"/>
     <schema name="" catalog="unicamp2"/>
     <schema name="" catalog="usina"/>
@@ -16269,7 +16270,7 @@
       <column name="metodo" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12"/>
       <column name="data_velha" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12"/>
       <column name="data" sqlType="DATE" length="10" precision="0" nullable="false" jdbcType="91"/>
-      <column name="status" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" def="MQ=="/>
+      <column name="status" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" def="MQ==" remarks="MT1wYWdvIDA9bmFvIHBhZ28="/>
       <column name="data_pagamento" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="id"/>
     </table>
@@ -16277,6 +16278,51 @@
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="cat" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
       <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="atendente" schema="" catalog="testesunicamp" type="TABLE">
+      <column name="codigo" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="salario" sqlType="DOUBLE" length="3" precision="1" nullable="true" jdbcType="8"/>
+      <column name="comissao" sqlType="FLOAT" length="3" precision="1" nullable="true" jdbcType="7"/>
+      <primary-key name="PRIMARY" columns="codigo"/>
+      <foreign-key name="atendente_ibfk_1" columns="codigo" ref-table="pessoa" ref-schema="" ref-catalog="testesunicamp" ref-columns="codigo" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="venda_ibfk_2" table="venda" schema="" catalog="testesunicamp" columns="cod_aten"/>
+    </table>
+    <table name="cliente" schema="" catalog="testesunicamp" type="TABLE">
+      <column name="codigo" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="rg" sqlType="CHAR" length="10" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
+      <column name="dtnasc" sqlType="VARCHAR" length="10" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="codigo,rg"/>
+      <foreign-key name="cliente_ibfk_1" columns="codigo" ref-table="pessoa" ref-schema="" ref-catalog="testesunicamp" ref-columns="codigo" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="venda_ibfk_1" table="venda" schema="" catalog="testesunicamp" columns="cod_cli"/>
+    </table>
+    <table name="livro" schema="" catalog="testesunicamp" type="TABLE">
+      <column name="codigo" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="titulo" sqlType="CHAR" length="50" precision="0" nullable="true" jdbcType="1"/>
+      <column name="autor" sqlType="CHAR" length="100" precision="0" nullable="true" jdbcType="1"/>
+      <column name="preço" sqlType="DOUBLE" length="22" precision="0" nullable="true" jdbcType="8"/>
+      <column name="qtd_estoque" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="codigo"/>
+      <exported-key name="venda_ibfk_3" table="venda" schema="" catalog="testesunicamp" columns="cod_livro"/>
+    </table>
+    <table name="pessoa" schema="" catalog="testesunicamp" type="TABLE">
+      <column name="codigo" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="nome" sqlType="CHAR" length="50" precision="0" nullable="true" jdbcType="1"/>
+      <column name="endereco" sqlType="CHAR" length="50" precision="0" nullable="true" jdbcType="1"/>
+      <column name="telefone" sqlType="VARCHAR" length="10" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="codigo"/>
+      <exported-key name="atendente_ibfk_1" table="atendente" schema="" catalog="testesunicamp" columns="codigo"/>
+      <exported-key name="cliente_ibfk_1" table="cliente" schema="" catalog="testesunicamp" columns="codigo"/>
+    </table>
+    <table name="venda" schema="" catalog="testesunicamp" type="TABLE">
+      <column name="codigo" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="quantidade" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="cod_cli" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="cod_aten" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="cod_livro" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="codigo"/>
+      <foreign-key name="venda_ibfk_1" columns="cod_cli" ref-table="cliente" ref-schema="" ref-catalog="testesunicamp" ref-columns="codigo" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="venda_ibfk_2" columns="cod_aten" ref-table="atendente" ref-schema="" ref-catalog="testesunicamp" ref-columns="codigo" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="venda_ibfk_3" columns="cod_livro" ref-table="livro" ref-schema="" ref-catalog="testesunicamp" ref-columns="codigo" update-rule="3" delete-rule="3" deferrability="2"/>
     </table>
     <table name="wp_commentmeta" schema="" catalog="tf" type="TABLE">
       <column name="meta_id" sqlType="BIGINT UNSIGNED" length="20" precision="0" nullable="false" jdbcType="-5" autoIncrement="true"/>

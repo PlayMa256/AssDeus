@@ -1,24 +1,1 @@
-<?php
-include "../conf/config.php";
-include "../function/logs.php";
-$data = date('Y-m-d');
-$hora = date("H:i:s");
-
-//id da reuniao
-$id = (int)$_GET['id_reuniao'];
-
-//reuniao finalizada
-$updateReuniao = mysql_query("UPDATE reuniao SET status = 1 WHERE id = '$id'");
-
-$membros_fora = mysql_query("SELECT membros.id FROM membros WHERE membros.id NOT IN(SELECT controle_membros.id_membro FROM controle_membros WHERE id_reuniao = '$id')") or Logs(mysql_error(), 2);
-while($result = mysql_fetch_array($membros_fora)){
-    $id_membro = $result['id'];
-
-    //inserir na tabela de faltas
-    $falta = mysql_query("INSERT INTO faltas (id_membro, data, status, id_reuniao) VALUES('$id_membro', '$data', '1', '$id_reuniao')") or Logs(mysql_error(), 2);
-    if($falta && $updateReuniao){
-        echo '<script>alert("Reuniao encerrada com sucesso!");location.href="list_reuniao.php";</script>';
-    }else{
-        echo '<script>alert("Problema ao encerrar reuniao");location.href="list_reuniao.php";</script>';
-    }
-}
+<?phpinclude "../conf/config.php";include "../function/logs.php";$data = date('Y-m-d');$hora = date("H:i:s");//id da reuniao$id = (int)$_GET['id_reuniao'];//$id = 10;//reuniao finalizada$updateReuniao = mysql_query("UPDATE reuniao SET status = 1 WHERE id = '$id'");//setores ao qual ela faz parte selecionados$selecionaSetores = mysql_query("SELECT setores FROM reuniao WHERE id = '$id'");$resultado = mysql_fetch_array($selecionaSetores);$setores = $resultado['setores'];$membrosFora = mysql_query("SELECT membros.id, congregacao.setor FROM (membros INNER JOIN congregacao ON membros.congregacao = congregacao.id)                        WHERE membros.id NOT IN(SELECT controle_membros.id_membro FROM controle_membros WHERE id_reuniao = '$id') AND congregacao.setor IN($setores)                            ") or die(mysql_error());$certos = 0;$errado = 0;$quantidade = mysql_num_rows($membrosFora);while($res = mysql_fetch_array($membrosFora)){    $id_membro = $res['id'];    //inserir na tabela de faltas    $falta = mysql_query("INSERT INTO faltas (id_membro, data, status, id_reuniao) VALUES('$id_membro', '$data', '1', '$id_reuniao')") or Logs(mysql_error(), 2);    if($falta){        $certos++;    }else{        $errado++;    }}if($updateReuniao && $certos == $quantidade){    echo '<script>alert("Reuniao encerrada com sucesso!");location.href="list_reuniao.php";</script>';}else if(!$updateReuniao && $errado == $quantidade){    echo '<script>alert("Problema ao encerrar reuniao");location.href="list_reuniao.php";</script>';}else if($certos >0 || $certos >$quantidade){    echo '<script>alert("Faltas dadas para alguns, nao para todos.");location.href="list_reuniao.php";</script>';}

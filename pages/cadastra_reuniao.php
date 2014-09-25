@@ -125,11 +125,17 @@ include_once "../function/format_data.php";
                         <span>Data Fim</span>
                         <input type="text" name="DataFim" id="data2" />
                     </label>
+                    <span>Setores Participantes</span>
+                    <small>Coloque no formato: 01,02,03(...)</small>
+                    <input type="text" name="setor"  />
+
                     <input type="hidden" name="acao" value="cadastrar" />
                     <input type="submit" value="Enviar" id="btn-submit" />
                 </fieldset>
             </form>
-            <?php if(isset($_POST['acao']) && $_POST['acao'] == 'cadastrar'){
+            <div id="alertas">
+            <?php
+               if(isset($_POST['acao']) && $_POST['acao'] == 'cadastrar'){
                 $titulo = trim(strip_tags($_POST['titulo']));
                 $dirigente = trim(strip_tags($_POST['dirigente']));
                 $preletor = trim(strip_tags($_POST['preletor']));
@@ -138,24 +144,32 @@ include_once "../function/format_data.php";
                 $obs = trim(strip_tags($_POST['obs']));
                 $dataInicio = trim(strip_tags($_POST['DataInicio']));
                 $DataFim = trim(strip_tags($_POST['DataFim']));
+                $setor = $_POST['setor'];
+
+
+                //valores escapados e inseridos "virgulas"
+                //$escaped_values = array_map('mysql_real_escape_string', array_values($setor));
+                //inserido virgula
+                //$values  = implode(", ", $escaped_values);
 
                 if(strtotime($dataInicio) < strtotime(date("d-m-Y"))){
                     echo '<div id="erro">A data de inicio tem que ser maior ou igual a data de hoje!</div>';
                 }else if(strtotime($DataFim) < strtotime(date("d-m-Y"))){
                     echo '<div id="erro">A data de termino tem que ser maior ou igual a data de hoje!</div>';
                 }else{
-
-                $dataInicio = format_data($dataInicio);
-                $DataFim = format_data($DataFim);
-
-
-                $sql = mysql_query("INSERT INTO reuniao (titulo, dirigente, preletor, tipo, tema, obs, DataInicio, DataFim, status) VALUES('$titulo', '$dirigente','$preletor','$tipo','$tema','$obs','$dataInicio','$DataFim', 0)") or die(mysql_error());
-                if($sql){
-                    echo '<div id="sucesso">Reuni&atilde;o cadastrada com sucesso.</div>';
-                }else{
-                    echo '<div id="erro">Problema ao inserir dados da reuni&atilde;o</div>';
-                }
+                    $dataInicio = format_data($dataInicio);
+                    $DataFim = format_data($DataFim);
+                    $sql = mysql_query("INSERT INTO reuniao (titulo, dirigente, preletor, tipo, tema, obs, DataInicio, DataFim, status, setores)
+                    VALUES('$titulo', '$dirigente','$preletor','$tipo','$tema','$obs','$dataInicio','$DataFim', 0, '$setor')") or die(mysql_error());
+                    if($sql){
+                        echo '<div id="sucesso">Reuni&atilde;o cadastrada com sucesso.</div>';
+                        echo '<script>location.href="#alertas";</script>';
+                    }else{
+                        echo '<div id="erro">Problema ao inserir dados da reuni&atilde;o</div>';
+                        echo '<script>location.href="#alertas";</script>';
+                    }
             }}?>
+            </div>
         </div><!--conteudo-->
 
     <?php include("menu.php");?>

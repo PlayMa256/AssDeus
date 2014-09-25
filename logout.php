@@ -1,5 +1,5 @@
 <?php
+session_start();
 session_destroy();
-unset($_SESSION['usuario']);
-session_unset();
-header("location: index.php");
+unset($_SESSION['user']);
+echo '<script>location.href="index";</script>';

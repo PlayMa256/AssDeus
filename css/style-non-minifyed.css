@@ -304,6 +304,13 @@ form#Login{
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
     width:300px;
 }
+#conteudo form input[type=checkbox]{
+    margin-right: 4px;
+}
+#conteudo form label{
+    display: block;
+    margin-bottom: 3px;
+}
 #Login legend, #conteudo legend{
     font-size: 20px;
     font-family: "Helvetica Neue",Helvetica,Arial;

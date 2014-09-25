@@ -1,7 +1,12 @@
 Tabelas:
     Membros
     Eventos
-    Congregações
+    Congregaï¿½ï¿½es
     Cargos
     disposicao_membros_eventos
     disposicao_membros_alojamentos
+    permissoes
+    Somente pessoas administradores podem dar permissoes para acesso hÃ¡, essas pessoas que estiverem na tabela permissoes:
+        Dar Falta
+        Tirar Advertencias
+        Tirar relatÃ³rios

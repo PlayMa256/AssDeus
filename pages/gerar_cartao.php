@@ -14,8 +14,8 @@ include "../function/logs.php";
     <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/menu.js"></script>
     <style type="text/css">
-        #cart_membros{
-            margin-bottom:5px;
+        #conteudo form label{
+            display: inline;
         }
     </style>
 </head>

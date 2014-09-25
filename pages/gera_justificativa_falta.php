@@ -41,9 +41,9 @@ if($_SESSION['cargo'] == 8 || $_SESSION['cargo'] == 9){
                     <select name="membro">
                         <option value="" selected="selected" disabled="disabled">Selecione um membro</option>
                         <?php
-                            $sql = mysql_query("SELECT nome, id FROM membros");
+                            $sql = mysql_query("SELECT nome, id FROM membros ORDER BY nome ASC");
                             while($res = mysql_fetch_array($sql)){
-                                echo '<option value="'.$res['id'].'">'.utf8_encode($res['nome']).'</option>';
+                                echo '<option value="'.$res['id'].'">'.$res['nome'].'</option>';
                             }
                         ?>
                     </select>

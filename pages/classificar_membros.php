@@ -12,29 +12,6 @@ include "../function/pega-nivel.php";
     <link rel="stylesheet" href="../css/style.css"/>
     <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/menu.js"></script>
-    <script type="text/javascript">
-        $(function(){
-            var inicial = "nome";
-            /*$.post("../scripts/classifica_retorna_membros.php",
-                {consulta:inicial},
-                function(valor){
-                    $("table.resultado_consulta").html(valor);
-                }
-            )*/
-
-          /*  $("#classificacao").change(function(){
-                var consulta = $(this).val();
-                 $.post("../scripts/classifica_retorna_membros.php",
-                    {consulta:consulta},
-                    function(valor){
-                        $("table.resultado_consulta").html(valor);
-                    }
-                )
-
-            });*/
-        });
-
-    </script>
 </head>
 <body>
 <div id="box">
@@ -43,8 +20,9 @@ include "../function/pega-nivel.php";
 	</div><!--header-->
 	<div id="corpo">
         <div id="conteudo">
+            <h1>Imprimir Relat&oacute;rios</h1>
              <form method="post" enctype="multipart/form-data" action="../scripts/classifica_retorna_membros.php">
-                 <legend>Imprimir Relat&oacute;rio</legend>
+
                  <span>Selecione Op&ccedil;&atilde;o</span>
                  <select name="classificacao" id="classificacao">
                      <option value="faltas">Faltas</option>

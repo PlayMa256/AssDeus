@@ -58,7 +58,7 @@ $funcao = trim($_POST['funcao']); //FK da tabela cargos
 $data = date('Y-m-d');
 $batismo = format_data($_POST['batismo']);
 $status = (int)$_POST['status'];
-$senha = (empty($_POST['senha'])) ? "" :  md5(sha1($_POST['senha']));
+$senha = (empty($_POST['senha'])) ? "" :  md5($_POST['senha']);
 
 
 

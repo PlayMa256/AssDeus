@@ -15,14 +15,14 @@ $id_reuniao = $_GET['id'];
 //Var status é = 0 => reuniao não finalizada, 1=> reuniao finalizada
 //por padrao $status = 0;
 
-$select = mysql_query("SELECT * FROM logs WHERE data = '$date'") or die(mysql_error());
+$select = mysql_query("SELECT * FROM logs WHERE data = '$date' AND id_reuniao = '$id_reuniao'") or die(mysql_error());
 $conta = mysql_num_rows($select);
 if($conta == 0){
     $insert = mysql_query("INSERT INTO logs (id_reuniao, data, hora) VALUES ('$id_reuniao','$date', '$hora')") or die(mysql_error());
     if($insert){
-        echo 's';
+        //echo 's';
     }else{
-        echo 'n';
+        Logs("Problema ao inicial log ".date("d-m-y")." nas reunioes", 3);
     }
 }
 ?>
@@ -38,66 +38,66 @@ if($conta == 0){
    <!-- <script type="text/javascript" src="../js/shadowbox.js"></script>-->
         <script type="text/javascript" src="../js/modal/jquery.simplemodal.js"></script>
     <script type="text/javascript">
-       $(function(){
-           $("a#popup").click(function(){
-               $.modal('<form method="post" enctype="multipart/form-data"><label><span>Nome</span><input type="text" name="id" class="id" /></label><div id="recebe_dados"></div></form>', {
-                   overlayId: 'contact-overlay',
-                   minHeight:400,
-                   minWidth: 400,
-                   //overlayClose:true,
-               });
+        $(function(){
+            $("a#popup").click(function(){
+                $.modal('<form method="post" enctype="multipart/form-data"><label><span>Nome</span><input type="text" name="id" class="id" /></label><div id="recebe_dados"></div></form>', {
+                    overlayId: 'contact-overlay',
+                    minHeight:500,
+                    minWidth: 400,
+                    //overlayClose:true,
+                });
 
 
-              $(".id").on('keyup', function(){
-                   var nome = $(this).val();
-                   $.post("../scripts/pega-nome.php",
-                       {nome:nome},
-                       function(valor){
-                           $("#recebe_dados").html(valor);
-                           if(!isEmpty(valor)){
-                               $(".id").val("");
-                           }else{
-                               $(".id").val("");
-                           }
-                       });
+                $(".id").on('keyup', function(){
+                    var nome = $(this).val();
+                    $.post("../scripts/pega-nome.php",
+                        {nome:nome},
+                        function(valor){
+                            $("#recebe_dados").html(valor);
+                            if(!isEmpty(valor)){
+                                $(".id").val("");
+                            }else{
+                                $(".id").val("");
+                            }
+                        });
 
-               });
-           });
+                });
+            });
 
-           //modal
-           $(document).on("click", ".Checkbox", function(){
-               $(".alvo").val(this.value);
-               var id_membro = $(".alvo").val();
-               var reuniao = $("input[name=reuniao_id]").val();
-               $.post(
-                   "../scripts/presenca-script.php",
-                   {id_membro:id_membro, id_reuniao:reuniao},
-                   function(value){
-                       $("#resultado").html(value);
-                       $.modal.close();
-                       //reseta os campos
-                       $(".alvo").val("");
-                   }
-               );
-               //fecha modal
+            //modal
+            $(document).on("click", ".Checkbox", function(){
+                $(".alvo").val(this.value);
+                var id_membro = $(".alvo").val();
+                var reuniao = $("input[name=reuniao_id]").val();
+                $.post(
+                    "../scripts/presenca-script.php",
+                    {id_membro:id_membro, id_reuniao:reuniao},
+                    function(value){
+                        $("#resultado").html(value);
+                        $.modal.close();
+                        //reseta os campos
+                        $(".alvo").val("");
+                    }
+                );
+                //fecha modal
 
-           });
-           /*$(".alvo").on('keyup', function(){
-               var id_membro = $(this).val();
-               var reuniao = $("input[name=reuniao_id]").val();
+            });
+            /*$(".alvo").on('keyup', function(){
+             var id_membro = $(this).val();
+             var reuniao = $("input[name=reuniao_id]").val();
              $.post(
-                   "../scripts/presenca-script.php",
-                   {id_membro:id_membro, id_reuniao:reuniao},
-                   function(value){
-                       $("#resultado").html(value);
-                       $(".alvo").val("");
+             "../scripts/presenca-script.php",
+             {id_membro:id_membro, id_reuniao:reuniao},
+             function(value){
+             $("#resultado").html(value);
+             $(".alvo").val("");
 
-                   }
-               );
+             }
+             );
 
 
-           });*/
-     });
+             });*/
+        });
 
 
     </script>
@@ -124,7 +124,7 @@ if($conta == 0){
                     <input type="hidden" name="reuniao_id" value="<?php echo $id_reuniao;?>" />
                     <input type="hidden" name="acao" value="enviar" />
                     <a href="#" id="popup"  rel="">Pesquisar Manualmente</a>
-                    <!--<input type="submit" name="" value="Presença" />-->
+                    <input type="submit" name="" value="Presença" />
                 </fieldset>
             </form>
 
@@ -137,21 +137,28 @@ if($conta == 0){
                 $id_membro = (int)$_POST['id_membro'];
                 $id_reuniao = (int)$_GET['id'];
 
-                $procura_ja_tem = mysql_query("SELECT * FROM controle_membros WHERE id_reuniao = '$id_reuniao' AND id_membro = '$id_membro'");
-                $quantidade = mysql_num_rows($procura_ja_tem);
-                if($quantidade == 0){
-                    $sql = mysql_query("INSERT INTO controle_membros (id_membro, data, id_reuniao, hora, status) VALUES ('$id_membro', '$data', '$id_reuniao', '$hora', 0)") or Logs(mysql_error(), 2);
-                    if($sql){
-                        echo '<div id="sucesso">Presen&ccedil;a dada com sucesso!</div>';
+                $select = mysql_query("SELECT * FROM logs WHERE data = '$data' and id_reuniao = '$id_reuniao'") or die(mysql_error());
+                while($res = mysql_fetch_array($select)){
+                    $horaInicio = $res['hora'];
+                    $diferencaHora = (int)abs((strtotime($horaInicio) - strtotime($hora))/60);
+                    if($diferencaHora >= 20){
+                        $status = 1;
                     }else{
-                        echo '<div id="erro">Problema ao inserir presen&ccedil;a!</div>';
+                        $status = 0;
                     }
-                }else{
-                    echo '<div id="alert">Us&aacute;rio j&aacute; tem presen&ccedil;a</div>';
+                    $procura_ja_tem = mysql_query("SELECT * FROM controle_membros WHERE id_reuniao = '$id_reuniao' AND id_membro = '$id_membro'");
+                    $quantidade = mysql_num_rows($procura_ja_tem);
+                    if($quantidade == 0){
+                        $sql = mysql_query("INSERT INTO controle_membros (id_membro, data, id_reuniao, hora, status) VALUES ('$id_membro', '$data', '$id_reuniao', '$hora', '$status')") or die(mysql_error());
+                        if($sql){
+                            echo '<div id="sucesso">Presen&ccedil;a dada com sucesso!</div>';
+                        }else{
+                            echo '<div id="erro">Problema ao inserir presen&ccedil;a!</div>';
+                        }
+                    }else{
+                        echo '<div id="alert">Us&aacute;rio j&aacute; tem presen&ccedil;a</div>';
+                    }
                 }
-
-
-
             }
         ?>
         </div>

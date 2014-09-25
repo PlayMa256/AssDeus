@@ -1,12 +1,17 @@
 <?php
 include "../conf/config.php";
 include "../function/logs.php";
+include "../pages/header_print.php";
 ?>
 <style type="text/css" media="all">
     @page
     {
         size: auto;   /* auto is the current printer page size */
         margin: 0mm;  /* this affects the margin in the printer settings */
+    }
+    #box{
+        float:left;
+        width: 100%;
     }
     .table{
         border-collapse: collapse !important;
@@ -23,11 +28,19 @@ include "../function/logs.php";
            font-size:12pt;
     }
 </style>
+<div style="clear: both"></div>
 <div id="box">
 <?php
     function faltas(){
+        $sql = mysql_query("SELECT membros.id as id_membro, membros.nome as nome, cargos.nome as cargo_nome, count(faltas.id) as quantidade FROM
+        (faltas INNER JOIN membros ON  faltas.id_membro = membros.id INNER JOIN cargos ON membros.cargoEclesiastico = cargos.id)
+         GROUP BY membros.nome  ORDER BY cargos.id ASC")or Logs(date("d-m-Y H:i:s")." arquivo classifica na parte de faltas  ".mysql_error(), 2);
+        $contar_resultados = mysql_num_rows($sql);
+        $total_select = mysql_query("SELECT * FROM membros WHERE cargoEclesiastico <> 10");
+        $conta_membros = mysql_num_rows($total_select);
         echo '
         <h1 align="center">Relat&oacute;rio de Membros - Faltas</h1>
+        <p>'.$contar_resultados.' de '.$conta_membros.' membros</p>
             <table border="1" cellspacing="0" class="table">
                  <tr>
                     <td style="font-weight:bold;">Nº</td>
@@ -37,11 +50,9 @@ include "../function/logs.php";
                  </tr>
             ';
 //(membros INNER JOIN faltas on membros.id = faltas.id_membro)
-        $sql = mysql_query("SELECT membros.id as id, membros.nome as nome, cargos.nome as cargo_nome, count(faltas.id) as quantidade FROM
-        (faltas INNER JOIN membros ON  faltas.id_membro = membros.id INNER JOIN cargos ON membros.cargoEclesiastico = cargos.id)
-         GROUP BY membros.nome  ORDER BY cargos.id ASC")or Logs(date("d-m-Y H:i:s")." arquivo classifica na parte de faltas  ".mysql_error(), 2);
+
         while($res = mysql_fetch_array($sql)){
-            $id = $res['id'];
+            $id = $res['id_membro'];
             $nome = $res['nome'];
             $cargo = $res['cargo_nome'];
             $quantidade = $res['quantidade'];
@@ -55,7 +66,14 @@ include "../function/logs.php";
         }
     }
 function atraso(){
+    $sql = mysql_query("SELECT membros.id as id_membro, membros.nome as nome, cargos.nome as cargo, count(controle_membros.id) as quantidade FROM
+    (controle_membros INNER JOIN membros ON controle_membros.id_membro = membros.id INNER JOIN cargos ON membros.cargoEclesiastico = cargos.id)
+    WHERE controle_membros.status = 1 GROUP BY membros.nome  ORDER BY cargos.id ASC") or Logs(date("d-m-Y H:i:s")." arquivo classifica na parte de atrasos ".mysql_error(), 2);
+    $contar_resultados = mysql_num_rows($sql);
+    $total_select = mysql_query("SELECT * FROM membros WHERE cargoEclesiastico <> 10");
+    $conta_membros = mysql_num_rows($total_select);
     echo '<h1 align="center">Relat&oacute;rio de Membros - Faltas</h1>
+<p>'.$contar_resultados.' de '.$conta_membros.' membros</p>
             <table border="1" cellspacing="0" class="table">
                  <tr>
                     <td style="font-weight:bold;">Nº</td>
@@ -64,11 +82,9 @@ function atraso(){
                     <td style="font-weight:bold;">Quantidade Atrasos</td>
                  </tr>
             ';
-    $sql = mysql_query("SELECT membros.id as id, membros.nome as nome, cargos.nome as cargo, count(controle_membros.id) as quantidade FROM
-    (controle_membros INNER JOIN membros ON controle_membros.id_membro = membros.id INNER JOIN cargos ON membros.cargoEclesiastico = cargos.id)
-    WHERE controle_membros.status = 1 GROUP BY membros.nome  ORDER BY cargos.id ASC") or Logs(date("d-m-Y H:i:s")." arquivo classifica na parte de atrasos ".mysql_error(), 2);
+
     while($res = mysql_fetch_array($sql)){
-        $id = $res['id'];
+        $id = $res['id_membro'];
         $nome = $res['nome'];
         $cargo = $res['cargo'];
         $quantidade = $res['quantidade'];
@@ -83,7 +99,14 @@ function atraso(){
     }
 }
 function geral(){
+    $sql = mysql_query("SELECT membros.id as id_membro, membros.nome as nome, cargos.nome as cargo, cargos.id FROM
+    (membros INNER JOIN cargos ON membros.cargoEclesiastico = cargos.id)
+     WHERE cargos.id <> '10' ORDER BY cargos.id ASC ") or Logs(date("d-m-Y H:i:s")." arquivo classifica na parte de atrasos ".mysql_error(), 2);
+    $contar_resultados = mysql_num_rows($sql);
+    $total_select = mysql_query("SELECT * FROM membros WHERE cargoEclesiastico <> 10");
+    $conta_membros = mysql_num_rows($total_select);
     echo '<h1 align="center">Relat&oacute;rio de Membros - Geral</h1>
+        <p>'.$contar_resultados.' de '.$conta_membros.' membros</p>
             <table border="1" cellspacing="0" class="table">
                  <tr>
                     <td style="font-weight:bold;">Nº</td>
@@ -91,9 +114,9 @@ function geral(){
                     <td style="font-weight:bold;">Cargo</td>
                  </tr>
             ';
-    $sql = mysql_query("SELECT membros.id as id, membros.nome as nome, cargos.nome as cargo, cargos.id FROM (membros INNER JOIN cargos ON membros.cargoEclesiastico = cargos.id) WHERE cargos.id <> '10' ORDER BY cargos.id ASC ") or Logs(date("d-m-Y H:i:s")." arquivo classifica na parte de atrasos ".mysql_error(), 2);
+
     while($res = mysql_fetch_array($sql)){
-        $id = $res['id'];
+        $id = $res['id_membro'];
         $nome = $res['nome'];
         $cargo = $res['cargo'];
         echo '<tr>

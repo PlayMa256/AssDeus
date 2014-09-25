@@ -8,7 +8,7 @@ include "../function/pega-nivel.php";
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>Preencher justificativa de falta avisada | Sistema de Controle</title>
+	<title>Relat&oacute;rio de Advertências | Sistema de Controle</title>
     <link rel="stylesheet" href="../css/style.css"/>
     <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/menu.js"></script>
@@ -20,6 +20,7 @@ include "../function/pega-nivel.php";
 	</div><!--header-->
 	<div id="corpo">
         <div id="conteudo">
+            <form method="post" action=""
 
         </div><!--conteudo-->
 
