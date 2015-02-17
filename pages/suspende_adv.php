@@ -27,7 +27,7 @@ include "../function/pega-nivel.php";
                     <select name="membro">
                         <option value="" selected="selected">Selecione um membro</option>
                         <?php
-                            $sql = mysql_query("SELECT id_membro FROM advertencia WHERE status = 1") or die(mysql_error());
+                            $sql = mysql_query("SELECT id_membro FROM advertencia WHERE status = 0") or die(mysql_error());
                             while($res = mysql_fetch_array($sql)){
                                 $id_membro = $res['id_membro'];
                                 $nome = mysql_query("SELECT nome FROM membros WHERE id = '$id_membro'") or die(mysql_error());
@@ -44,7 +44,7 @@ include "../function/pega-nivel.php";
             </form>
             <?php if(isset($_POST['acao']) && $_POST['acao'] == 'cadastrar'){
                 $id_membro = $_POST['membro'];
-                $mysql = mysql_query("UPDATE advertencia SET status = 0 WHERE id_membro = '$id_membro'");
+                $mysql = mysql_query("UPDATE advertencia SET status = 1 WHERE id_membro = '$id_membro'");
                 if($mysql){
                     echo '<div id="sucesso">Advert&ecirc;ncia retirada!</div>';
                 }else{

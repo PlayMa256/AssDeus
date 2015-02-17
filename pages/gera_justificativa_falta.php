@@ -16,16 +16,12 @@ if($_SESSION['cargo'] == 8 || $_SESSION['cargo'] == 9){
     <link rel="stylesheet" href="../css/style.css"/>
     <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/menu.js"></script>
-    <script type="text/javascript" src="../tinymce/tinymce.min.js"></script>
-    <script type="text/javascript">
-        tinymce.init({
-            language : "pt_BR",
-            selector: "textarea",
-            theme: "modern",
-            toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | l      ink image | print preview media fullpage | forecolor backcolor emoticons"
-
-        });
-    </script>
+    <style>
+textarea {
+    height: 200px;
+    width: 326px;
+}
+    </style>
 </head>
 <body>
 <div id="box">
@@ -48,7 +44,8 @@ if($_SESSION['cargo'] == 8 || $_SESSION['cargo'] == 9){
                         ?>
                     </select>
                 <span>Motivo</span>
-                    <textarea rows="" cols="" name="motivo" style="width:300px;height: 100px;padding: 5px;"></textarea><br/>
+                    <textarea rows="" cols="" name="motivo"></textarea>
+                    <br/>
                     <input type="hidden" name="acao" value="cadastrar" />
                     <input type="submit" name="" value="Registrar" id="btn-submit" />
                 </fieldset>
@@ -74,11 +71,17 @@ if($_SESSION['cargo'] == 8 || $_SESSION['cargo'] == 9){
     <?php include("menu.php");?>
 
 
+
 <div style="clear: both"></div>
 	</div><!--corpo-->
-    <div id="footer" style="float:right;">
+   <div id="footer" style="float:right;">
+
         <a href="pages/contact.php">feito por: MGS</a>
+
     </div>
+
 </div><!--box-->
+
 </body>
+
 </html>

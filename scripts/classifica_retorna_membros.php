@@ -33,7 +33,8 @@ include "../pages/header_print.php";
 <?php
     function faltas(){
         $sql = mysql_query("SELECT membros.id as id_membro, membros.nome as nome, cargos.nome as cargo_nome, count(faltas.id) as quantidade FROM
-        (faltas INNER JOIN membros ON  faltas.id_membro = membros.id INNER JOIN cargos ON membros.cargoEclesiastico = cargos.id)
+        (faltas INNER JOIN membros ON  faltas.id_membro = membros.id INNER JOIN cargos ON membros.cargoEclesiastico = cargos.id) WHERE membros.id NOT IN (
+            SELECT id_membro FROM faltas WHERE faltas.status = 0)
          GROUP BY membros.nome  ORDER BY cargos.id ASC")or Logs(date("d-m-Y H:i:s")." arquivo classifica na parte de faltas  ".mysql_error(), 2);
         $contar_resultados = mysql_num_rows($sql);
         $total_select = mysql_query("SELECT * FROM membros WHERE cargoEclesiastico <> 10");

@@ -4,22 +4,23 @@ include "../conf/config.php";
 include "../function/pega-nome.php";
 include "../function/pega-nivel.php";
 include_once "../scripts/daemon.gera_adv.php";
+include_once "../scripts/backup2/backup.php";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title></title>
+	<title>HOME | Sistema de Controle de Membros</title>
     <link rel="stylesheet" href="../css/style.css"/>
     <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/menu.js"></script>
-    <script type="text/javascript">
-        var pathname = $(location).attr('pathname');
-        var url = pathname.split(".");
-        var urlName = url[0];
-        var ext = url[1];
+<?php
+    $data = date("Y-m-d");
+    $hora = date("H:i:s");
+    $usuario = $_SESSION['usuario'];
+    $s = mysql_query("INSERT INTO log_acesso (membro, data, hora) VALUES ('$usuario', '$data', '$hora')") or die(mysql_error()); 
 
-    </script>
+?>
 </head>
 <body>
 
@@ -39,12 +40,9 @@ include_once "../scripts/daemon.gera_adv.php";
             <p></p>
         </div><!--conteudo-->
 
-
-
     <?php if($_SESSION['cargo'] == 8 || $_SESSION['cargo'] == 9){
         $user = $_SESSION['usuario'];
         //header("location: justifica_adv.php?id=$user");
-
         $id_membro = $_SESSION['usuario'];
         $cargo = $_SESSION['cargo'];
         $nao_acessam = array(8,9);
@@ -59,7 +57,8 @@ include_once "../scripts/daemon.gera_adv.php";
 
     }else{
 
-    include("menu.php");}?>
+    include("menu.php");
+}?>
 
 
 <div style="clear: both"></div>

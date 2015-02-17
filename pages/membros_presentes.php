@@ -8,7 +8,7 @@ include "../function/pega-nivel.php";
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>Preencher justificativa de falta avisada | Sistema de Controle</title>
+	<title>Relat&oacute;rio de membros presentes | Sistema de Controle</title>
     <link rel="stylesheet" href="../css/style.css"/>
     <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/menu.js"></script>

@@ -195,3 +195,941 @@
 [21-Aug-2014 07:22:04 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/adcosmop/public_html/sistema/function/format_data.php on line 7
 [21-Aug-2014 07:22:04 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/adcosmop/public_html/sistema/function/format_data.php on line 6
 [21-Aug-2014 07:22:04 America/Sao_Paulo] PHP Notice:  Undefined offset: 2 in /home/adcosmop/public_html/sistema/function/format_data.php on line 7
+[21-Aug-2014 12:03:38 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[21-Aug-2014 12:03:38 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[21-Aug-2014 12:03:38 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[21-Aug-2014 12:03:38 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[21-Aug-2014 12:03:38 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[21-Aug-2014 13:56:33 America/Sao_Paulo] PHP Warning:  include_once(../scripts/daemon.gera_adv.php): failed to open stream: No such file or directory in /home/adcosmop/public_html/sistema/pages/painel.php on line 6
+[21-Aug-2014 13:56:33 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../scripts/daemon.gera_adv.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/adcosmop/public_html/sistema/pages/painel.php on line 6
+[21-Aug-2014 13:59:46 America/Sao_Paulo] PHP Warning:  include_once(../scripts/daemon.gera_adv.php): failed to open stream: No such file or directory in /home/adcosmop/public_html/sistema/pages/painel.php on line 6
+[21-Aug-2014 13:59:46 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../scripts/daemon.gera_adv.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/adcosmop/public_html/sistema/pages/painel.php on line 6
+[21-Aug-2014 17:53:34 America/Sao_Paulo] PHP Notice:  Undefined index: estadoCivil in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 509
+[21-Aug-2014 17:53:34 America/Sao_Paulo] PHP Notice:  Undefined index: nomePai in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 521
+[21-Aug-2014 17:53:34 America/Sao_Paulo] PHP Notice:  Undefined index: nomeMae in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 523
+[21-Aug-2014 17:53:34 America/Sao_Paulo] PHP Notice:  Undefined index: conjuge in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 524
+[21-Aug-2014 17:53:34 America/Sao_Paulo] PHP Notice:  Undefined index: editar_foto in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 584
+[21-Aug-2014 21:38:41 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 642
+[21-Aug-2014 18:39:05 America/Sao_Paulo] PHP Notice:  Undefined index: EstadoCivil in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 508
+[21-Aug-2014 18:39:05 America/Sao_Paulo] PHP Notice:  Undefined index: nomePai in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 520
+[21-Aug-2014 18:39:05 America/Sao_Paulo] PHP Notice:  Undefined index: nomeMae in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 522
+[21-Aug-2014 18:39:05 America/Sao_Paulo] PHP Notice:  Undefined index: conjuge in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 523
+[21-Aug-2014 18:39:05 America/Sao_Paulo] PHP Notice:  Undefined index: senhaantiga in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 558
+[21-Aug-2014 18:42:03 America/Sao_Paulo] PHP Notice:  Undefined index: nomePai in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 528
+[21-Aug-2014 18:42:03 America/Sao_Paulo] PHP Notice:  Undefined index: nomeMae in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 530
+[21-Aug-2014 18:42:03 America/Sao_Paulo] PHP Notice:  Undefined index: conjuge in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 531
+[21-Aug-2014 18:42:03 America/Sao_Paulo] PHP Notice:  Undefined index: senhaantiga in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 566
+[21-Aug-2014 18:48:12 America/Sao_Paulo] PHP Fatal error:  Call to undefined function upload() in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 604
+[21-Aug-2014 18:50:40 America/Sao_Paulo] PHP Fatal error:  Call to undefined function upload() in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 604
+[21-Aug-2014 18:53:17 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[21-Aug-2014 18:53:17 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[21-Aug-2014 18:53:17 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[21-Aug-2014 18:53:17 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[21-Aug-2014 18:53:17 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[21-Aug-2014 18:55:51 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[21-Aug-2014 18:55:51 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[21-Aug-2014 18:55:51 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[21-Aug-2014 18:55:51 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[21-Aug-2014 18:55:51 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[21-Aug-2014 18:56:47 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[21-Aug-2014 18:56:47 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[21-Aug-2014 18:56:47 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[21-Aug-2014 18:56:47 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[21-Aug-2014 18:56:47 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[21-Aug-2014 19:05:54 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[21-Aug-2014 19:05:54 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/tmp/phpMe4Bh3' is not a valid JPEG file in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[21-Aug-2014 19:05:54 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[21-Aug-2014 19:05:54 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[21-Aug-2014 19:05:54 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[21-Aug-2014 19:05:54 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[21-Aug-2014 22:06:23 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 647
+[21-Aug-2014 22:22:26 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 648
+[21-Aug-2014 21:05:27 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[21-Aug-2014 21:05:27 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[21-Aug-2014 21:05:27 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[21-Aug-2014 21:05:27 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[21-Aug-2014 21:05:27 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[21-Aug-2014 21:18:58 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[21-Aug-2014 21:18:58 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[21-Aug-2014 21:18:58 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[21-Aug-2014 21:18:58 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[21-Aug-2014 21:18:58 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:38:58 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 09:39:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:18:35 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 13:41:21 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:23:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:34:00 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 31
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:41:22 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[28-Aug-2014 14:42:24 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/scripts/daemon.gera_adv.php on line 27
+[29-Aug-2014 22:36:07 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/adcosmop/public_html/sistema/pages/list_obreiros_reserva.php on line 104
+[29-Aug-2014 22:44:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/adcosmop/public_html/sistema/pages/list_obreiros.php on line 73
+[29-Aug-2014 23:00:35 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/adcosmop/public_html/sistema/pages/list_obreiros.php on line 118
+[29-Aug-2014 20:12:47 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/adcosmop/public_html/sistema/pages/list_obreiros.php on line 56
+[30-Aug-2014 21:00:29 UTC] PHP Warning:  include_once(../config/conf.php): failed to open stream: No such file or directory in /home/adcosmop/public_html/sistema/pages/print_obreiros.php on line 2
+[30-Aug-2014 21:00:29 UTC] PHP Warning:  include_once(): Failed opening '../config/conf.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/adcosmop/public_html/sistema/pages/print_obreiros.php on line 2
+[30-Aug-2014 21:00:29 UTC] PHP Warning:  mysql_query(): Access denied for user 'adcosmop'@'localhost' (using password: NO) in /home/adcosmop/public_html/sistema/pages/print_obreiros.php on line 15
+[30-Aug-2014 21:00:29 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/adcosmop/public_html/sistema/pages/print_obreiros.php on line 15
+[30-Aug-2014 21:00:29 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/print_obreiros.php on line 16
+[30-Aug-2014 21:00:29 UTC] PHP Warning:  mysql_query(): Access denied for user 'adcosmop'@'localhost' (using password: NO) in /home/adcosmop/public_html/sistema/pages/print_obreiros.php on line 15
+[30-Aug-2014 21:00:29 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/adcosmop/public_html/sistema/pages/print_obreiros.php on line 15
+[30-Aug-2014 21:00:29 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/print_obreiros.php on line 16
+[30-Aug-2014 21:00:30 UTC] PHP Warning:  include_once(../config/conf.php): failed to open stream: No such file or directory in /home/adcosmop/public_html/sistema/pages/print_obreiros.php on line 2
+[30-Aug-2014 21:00:30 UTC] PHP Warning:  include_once(): Failed opening '../config/conf.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/adcosmop/public_html/sistema/pages/print_obreiros.php on line 2
+[30-Aug-2014 21:00:30 UTC] PHP Warning:  mysql_query(): Access denied for user 'adcosmop'@'localhost' (using password: NO) in /home/adcosmop/public_html/sistema/pages/print_obreiros.php on line 15
+[30-Aug-2014 21:00:30 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/adcosmop/public_html/sistema/pages/print_obreiros.php on line 15
+[30-Aug-2014 21:00:30 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/print_obreiros.php on line 16
+[30-Aug-2014 18:31:28 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/permissoes.php on line 34
+[30-Aug-2014 23:11:55 UTC] PHP Parse error:  syntax error, unexpected '$k' (T_VARIABLE) in /home/adcosmop/public_html/sistema/pages/estatisticas.php on line 94
+[02-Sep-2014 13:53:37 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[02-Sep-2014 13:53:37 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[02-Sep-2014 13:53:37 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[02-Sep-2014 13:53:37 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[02-Sep-2014 13:53:37 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[02-Sep-2014 14:40:22 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[02-Sep-2014 14:40:22 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[02-Sep-2014 14:40:22 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[02-Sep-2014 14:40:22 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[02-Sep-2014 14:40:22 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[02-Sep-2014 15:02:46 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[02-Sep-2014 15:02:46 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[02-Sep-2014 15:02:46 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[02-Sep-2014 15:02:46 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[02-Sep-2014 15:02:46 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[04-Sep-2014 16:38:47 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/print_ocupantes.php on line 16
+[04-Sep-2014 16:38:47 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/print_ocupantes.php on line 26
+[04-Sep-2014 16:41:18 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/print_ocupantes.php on line 43
+[04-Sep-2014 16:41:18 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/print_ocupantes.php on line 53
+[05-Sep-2014 11:05:03 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[05-Sep-2014 11:05:03 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[05-Sep-2014 11:05:03 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[05-Sep-2014 11:05:03 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[05-Sep-2014 11:05:03 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[05-Sep-2014 11:10:00 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[05-Sep-2014 11:10:00 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[05-Sep-2014 11:10:00 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[05-Sep-2014 11:10:00 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[05-Sep-2014 11:10:00 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[05-Sep-2014 11:10:06 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[05-Sep-2014 11:10:06 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[05-Sep-2014 11:10:06 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[05-Sep-2014 11:10:06 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[05-Sep-2014 11:10:06 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[05-Sep-2014 11:20:48 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[05-Sep-2014 11:20:48 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[05-Sep-2014 11:20:48 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[05-Sep-2014 11:20:48 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[05-Sep-2014 11:20:48 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[05-Sep-2014 11:47:53 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[05-Sep-2014 11:47:53 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[05-Sep-2014 11:47:53 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[05-Sep-2014 11:47:53 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[05-Sep-2014 11:47:53 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[09-Sep-2014 14:16:08 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[09-Sep-2014 14:16:08 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[09-Sep-2014 14:16:08 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[09-Sep-2014 14:16:08 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[09-Sep-2014 14:16:08 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[09-Sep-2014 14:16:18 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[09-Sep-2014 14:16:18 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[09-Sep-2014 14:16:18 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[09-Sep-2014 14:16:18 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[09-Sep-2014 14:16:18 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[09-Sep-2014 15:36:32 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[09-Sep-2014 15:36:32 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[09-Sep-2014 15:36:32 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[09-Sep-2014 15:36:32 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[09-Sep-2014 15:36:32 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[09-Sep-2014 20:01:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[09-Sep-2014 20:01:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[09-Sep-2014 20:01:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[09-Sep-2014 20:11:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[09-Sep-2014 20:12:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[09-Sep-2014 20:12:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[09-Sep-2014 20:13:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[09-Sep-2014 20:14:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[09-Sep-2014 20:14:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[09-Sep-2014 20:15:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 1
+[09-Sep-2014 19:49:40 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[09-Sep-2014 19:49:40 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/tmp/phpaa20jP' is not a valid JPEG file in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[09-Sep-2014 19:49:40 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[09-Sep-2014 19:49:40 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[09-Sep-2014 19:49:40 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[09-Sep-2014 19:49:40 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[09-Sep-2014 19:58:31 America/Sao_Paulo] PHP Warning:  unlink(../uploads/): Is a directory in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 631
+[09-Sep-2014 20:09:05 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[09-Sep-2014 20:09:05 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[09-Sep-2014 20:09:05 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[09-Sep-2014 20:09:05 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[09-Sep-2014 20:09:05 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[09-Sep-2014 20:24:08 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[09-Sep-2014 20:24:08 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[09-Sep-2014 20:24:08 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[09-Sep-2014 20:24:08 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[09-Sep-2014 20:24:08 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[09-Sep-2014 20:28:29 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[09-Sep-2014 20:28:29 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[09-Sep-2014 20:28:29 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[09-Sep-2014 20:28:29 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[09-Sep-2014 20:28:29 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[09-Sep-2014 21:01:44 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[09-Sep-2014 21:01:44 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[09-Sep-2014 21:01:44 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[09-Sep-2014 21:01:44 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[09-Sep-2014 21:01:44 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[09-Sep-2014 21:08:35 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[09-Sep-2014 21:08:35 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[09-Sep-2014 21:08:35 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[09-Sep-2014 21:08:35 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[09-Sep-2014 21:08:35 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[09-Sep-2014 21:33:58 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[09-Sep-2014 21:33:58 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[09-Sep-2014 21:33:58 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[09-Sep-2014 21:33:58 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[09-Sep-2014 21:33:58 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[09-Sep-2014 21:42:44 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[09-Sep-2014 21:42:44 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[09-Sep-2014 21:42:44 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[09-Sep-2014 21:42:44 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[09-Sep-2014 21:42:44 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[09-Sep-2014 22:00:48 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[09-Sep-2014 22:00:48 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[09-Sep-2014 22:00:48 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[09-Sep-2014 22:00:48 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[09-Sep-2014 22:00:48 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[11-Sep-2014 19:19:47 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/adcosmop/public_html/sistema/pages/edit_membros_teste.php on line 661
+[11-Sep-2014 16:20:01 America/Sao_Paulo] PHP Fatal error:  Call to undefined function iseet() in /home/adcosmop/public_html/sistema/pages/edit_membros_teste.php on line 660
+[11-Sep-2014 16:20:27 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare nome() (previously declared in /home/adcosmop/public_html/sistema/function/pega-nome.php:2) in /home/adcosmop/public_html/sistema/function/pega-nome.php on line 7
+[11-Sep-2014 16:22:41 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare cargo() (previously declared in /home/adcosmop/public_html/sistema/function/pega-nivel.php:2) in /home/adcosmop/public_html/sistema/function/pega-nivel.php on line 7
+[11-Sep-2014 16:23:01 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare format_data() (previously declared in /home/adcosmop/public_html/sistema/function/format_data.php:2) in /home/adcosmop/public_html/sistema/function/format_data.php on line 12
+[12-Sep-2014 22:11:21 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[12-Sep-2014 22:11:21 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[12-Sep-2014 22:11:21 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[12-Sep-2014 22:11:21 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[12-Sep-2014 22:11:21 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[12-Sep-2014 23:08:10 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[12-Sep-2014 23:08:10 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[12-Sep-2014 23:08:10 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[12-Sep-2014 23:08:10 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[12-Sep-2014 23:08:10 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[13-Sep-2014 18:10:57 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Sep-2014 18:10:57 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Sep-2014 18:10:57 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Sep-2014 18:10:57 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Sep-2014 18:10:57 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[13-Sep-2014 18:14:14 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Sep-2014 18:14:14 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Sep-2014 18:14:14 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Sep-2014 18:14:14 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Sep-2014 18:14:14 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[13-Sep-2014 18:14:16 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Sep-2014 18:14:16 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Sep-2014 18:14:16 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Sep-2014 18:14:16 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Sep-2014 18:14:16 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[13-Sep-2014 18:25:58 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Sep-2014 18:25:58 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Sep-2014 18:25:58 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Sep-2014 18:25:58 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Sep-2014 18:25:58 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[13-Sep-2014 18:26:01 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Sep-2014 18:26:01 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Sep-2014 18:26:01 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Sep-2014 18:26:01 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Sep-2014 18:26:01 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[13-Sep-2014 18:47:12 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Sep-2014 18:47:12 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Sep-2014 18:47:12 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Sep-2014 18:47:12 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Sep-2014 18:47:12 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[13-Sep-2014 19:05:17 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Sep-2014 19:05:17 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Sep-2014 19:05:17 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Sep-2014 19:05:17 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Sep-2014 19:05:17 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[13-Sep-2014 21:39:07 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Sep-2014 21:39:07 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Sep-2014 21:39:07 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Sep-2014 21:39:07 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Sep-2014 21:39:07 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[13-Sep-2014 21:41:55 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Sep-2014 21:41:55 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Sep-2014 21:41:55 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Sep-2014 21:41:55 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Sep-2014 21:41:55 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[13-Sep-2014 21:48:37 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Sep-2014 21:48:37 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Sep-2014 21:48:37 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Sep-2014 21:48:37 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Sep-2014 21:48:37 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[13-Sep-2014 21:50:02 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Sep-2014 21:50:02 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Sep-2014 21:50:02 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Sep-2014 21:50:02 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Sep-2014 21:50:02 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[13-Sep-2014 22:00:06 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Sep-2014 22:00:06 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Sep-2014 22:00:06 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Sep-2014 22:00:06 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Sep-2014 22:00:06 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[13-Sep-2014 22:03:58 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[13-Sep-2014 22:03:58 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[13-Sep-2014 22:03:58 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[13-Sep-2014 22:03:58 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[13-Sep-2014 22:03:58 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[15-Sep-2014 15:29:25 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/adcosmop/public_html/sistema/pages/edit_membros.php:52) in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 699
+[15-Sep-2014 15:32:16 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/adcosmop/public_html/sistema/pages/edit_membros.php:53) in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 699
+[15-Sep-2014 15:45:05 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[15-Sep-2014 15:45:05 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): '/tmp/phplz53yK' is not a valid JPEG file in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[15-Sep-2014 15:45:05 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[15-Sep-2014 15:45:05 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[15-Sep-2014 15:45:05 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[15-Sep-2014 15:45:05 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[15-Sep-2014 23:18:23 America/Sao_Paulo] PHP Warning:  unlink(../uploads/7448d1a6a9ca1e7831a67cad332a531a.): No such file or directory in /home/adcosmop/public_html/sistema/pages/edit_membros.php on line 636
+[16-Sep-2014 01:03:06 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[16-Sep-2014 01:03:06 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[16-Sep-2014 01:03:06 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[16-Sep-2014 01:03:06 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[16-Sep-2014 01:03:06 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[16-Sep-2014 15:19:37 UTC] PHP Parse error:  syntax error, unexpected '"../scripts/permissao.php"' (T_CONSTANT_ENCAPSED_STRING) in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 1
+[16-Sep-2014 15:20:00 UTC] PHP Parse error:  syntax error, unexpected '"../scripts/permissao.php"' (T_CONSTANT_ENCAPSED_STRING) in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 1
+[16-Sep-2014 15:22:07 UTC] PHP Parse error:  syntax error, unexpected '"../scripts/permissao.php"' (T_CONSTANT_ENCAPSED_STRING) in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 1
+[16-Sep-2014 12:29:31 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 43
+[16-Sep-2014 12:31:29 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 43
+[16-Sep-2014 12:31:33 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 43
+[16-Sep-2014 12:31:39 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 54
+[16-Sep-2014 12:33:28 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 82
+[16-Sep-2014 12:33:30 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 82
+[16-Sep-2014 12:33:40 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 82
+[16-Sep-2014 15:38:28 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ',' or ';' in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 67
+[16-Sep-2014 15:38:52 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 111
+[16-Sep-2014 15:47:05 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 53
+[16-Sep-2014 13:32:44 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 107
+[16-Sep-2014 13:33:14 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 108
+[16-Sep-2014 16:33:43 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ',' or ';' in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 62
+[16-Sep-2014 13:34:02 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 108
+[16-Sep-2014 13:35:21 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 108
+[16-Sep-2014 13:39:06 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 113
+[16-Sep-2014 13:43:02 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 114
+[16-Sep-2014 13:43:56 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 85
+[17-Sep-2014 23:00:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/adcosmop/public_html/sistema/pages/membros_presentes_print.php on line 95
+[24-Sep-2014 11:47:05 America/Sao_Paulo] PHP Warning:  require_once(Mail/mimePart.php): failed to open stream: No such file or directory in /home/adcosmop/public_html/sistema/scripts/backup/Mail/mime.php on line 41
+[24-Sep-2014 11:47:05 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required 'Mail/mimePart.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/adcosmop/public_html/sistema/scripts/backup/Mail/mime.php on line 41
+[24-Sep-2014 11:47:27 America/Sao_Paulo] PHP Warning:  require_once(Mail/mimePart.php): failed to open stream: No such file or directory in /home/adcosmop/public_html/sistema/scripts/backup/Mail/mime.php on line 41
+[24-Sep-2014 11:47:27 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required 'Mail/mimePart.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/adcosmop/public_html/sistema/scripts/backup/Mail/mime.php on line 41
+[25-Sep-2014 13:15:17 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adcosmop/public_html/sistema/pages/list_justificativas.php:1) in /home/adcosmop/public_html/sistema/scripts/permissao.php on line 2
+[25-Sep-2014 13:15:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adcosmop/public_html/sistema/pages/list_justificativas.php:1) in /home/adcosmop/public_html/sistema/scripts/permissao.php on line 2
+[25-Sep-2014 13:15:25 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adcosmop/public_html/sistema/pages/list_justificativas.php:1) in /home/adcosmop/public_html/sistema/scripts/permissao.php on line 2
+[25-Sep-2014 13:16:41 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adcosmop/public_html/sistema/pages/list_justificativas.php:1) in /home/adcosmop/public_html/sistema/scripts/permissao.php on line 2
+[25-Sep-2014 13:16:46 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adcosmop/public_html/sistema/pages/list_justificativas.php:1) in /home/adcosmop/public_html/sistema/scripts/permissao.php on line 2
+[25-Sep-2014 13:18:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adcosmop/public_html/sistema/pages/list_justificativas.php:1) in /home/adcosmop/public_html/sistema/scripts/permissao.php on line 2
+[25-Sep-2014 13:18:36 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/adcosmop/public_html/sistema/pages/list_justificativas.php:1) in /home/adcosmop/public_html/sistema/scripts/permissao.php on line 2
+[25-Sep-2014 15:46:38 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 82
+[25-Sep-2014 15:47:10 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 90
+[25-Sep-2014 15:47:43 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 90
+[25-Sep-2014 15:48:06 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 91
+[25-Sep-2014 15:48:40 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 90
+[25-Sep-2014 15:49:09 America/Sao_Paulo] PHP Warning:  Division by zero in /home/adcosmop/public_html/sistema/pages/list_reuniao.php on line 91
+[25-Sep-2014 15:57:45 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/apagar_membro_reuniao.php on line 30
+[25-Sep-2014 15:57:59 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/apagar_membro_reuniao.php on line 30
+[25-Sep-2014 15:59:31 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/apagar_membro_reuniao.php on line 33
+[25-Sep-2014 15:59:42 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/pages/apagar_membro_reuniao.php on line 33
+[19-Nov-2014 20:11:27 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/adcosmop/public_html/sistema/pages/dar_falta_fechar.php on line 22
+[19-Nov-2014 20:11:54 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in /home/adcosmop/public_html/sistema/pages/dar_falta_fechar.php on line 22
+[16-Dec-2014 10:28:19 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[16-Dec-2014 10:28:19 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[16-Dec-2014 10:28:19 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[16-Dec-2014 10:28:19 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[16-Dec-2014 10:28:19 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[16-Dec-2014 11:26:04 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[16-Dec-2014 11:26:04 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[16-Dec-2014 11:26:04 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[16-Dec-2014 11:26:04 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[16-Dec-2014 11:26:04 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 13:21:57 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 13:21:57 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 13:21:57 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 13:21:57 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 13:21:57 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 13:48:01 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 13:48:01 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 13:48:01 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 13:48:01 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 13:48:01 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 13:52:25 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 13:52:25 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 13:52:25 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 13:52:25 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 13:52:25 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 14:00:11 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 14:00:11 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 14:00:11 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 14:00:11 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 14:00:11 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 14:02:52 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 14:02:52 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 14:02:52 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 14:02:52 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 14:02:52 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 14:38:14 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 14:38:14 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 14:38:14 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 14:38:14 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 14:38:14 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 14:45:16 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 14:45:16 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 14:45:16 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 14:45:16 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 14:45:16 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 14:48:58 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 14:48:58 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 14:48:58 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 14:48:58 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 14:48:58 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 15:38:12 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 15:38:12 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 15:38:12 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 15:38:12 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 15:38:12 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 15:44:42 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 15:44:42 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 15:44:42 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 15:44:42 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 15:44:42 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 16:07:13 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 16:07:13 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 16:07:13 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 16:07:13 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 16:07:13 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 16:08:02 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 16:08:02 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 16:08:02 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 16:08:02 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 16:08:02 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 16:09:46 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 16:09:46 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 16:09:46 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 16:09:46 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 16:09:46 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 16:20:59 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 16:20:59 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 16:20:59 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 16:20:59 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 16:20:59 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11
+[17-Feb-2015 16:28:07 America/Sao_Paulo] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 3
+[17-Feb-2015 16:28:07 America/Sao_Paulo] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 4
+[17-Feb-2015 16:28:07 America/Sao_Paulo] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 5
+[17-Feb-2015 16:28:07 America/Sao_Paulo] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 8
+[17-Feb-2015 16:28:07 America/Sao_Paulo] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/adcosmop/public_html/sistema/function/upload-redimensionar.php on line 11

@@ -119,7 +119,8 @@ include_once "../function/format_data.php";
                     </label>
                     <label for="">
                         <span>Data In&iacute;cio</span>
-                        <input type="text" name="DataInicio" id="data" />
+
+                       <input type="text" name="DataInicio" id="data" />
                     </label>
                     <label for="">
                         <span>Data Fim</span>
@@ -142,7 +143,8 @@ include_once "../function/format_data.php";
                 $tema = trim(strip_tags($_POST['tema']));
                 $tipo = trim(strip_tags($_POST['tipo']));
                 $obs = trim(strip_tags($_POST['obs']));
-                $dataInicio = trim(strip_tags($_POST['DataInicio']));
+
+               $dataInicio = trim(strip_tags($_POST['DataInicio']));
                 $DataFim = trim(strip_tags($_POST['DataFim']));
                 $setor = $_POST['setor'];
 
@@ -151,14 +153,9 @@ include_once "../function/format_data.php";
                 //$escaped_values = array_map('mysql_real_escape_string', array_values($setor));
                 //inserido virgula
                 //$values  = implode(", ", $escaped_values);
-
-                if(strtotime($dataInicio) < strtotime(date("d-m-Y"))){
-                    echo '<div id="erro">A data de inicio tem que ser maior ou igual a data de hoje!</div>';
-                }else if(strtotime($DataFim) < strtotime(date("d-m-Y"))){
-                    echo '<div id="erro">A data de termino tem que ser maior ou igual a data de hoje!</div>';
-                }else{
                     $dataInicio = format_data($dataInicio);
-                    $DataFim = format_data($DataFim);
+
+                   $DataFim = format_data($DataFim);
                     $sql = mysql_query("INSERT INTO reuniao (titulo, dirigente, preletor, tipo, tema, obs, DataInicio, DataFim, status, setores)
                     VALUES('$titulo', '$dirigente','$preletor','$tipo','$tema','$obs','$dataInicio','$DataFim', 0, '$setor')") or die(mysql_error());
                     if($sql){
@@ -168,13 +165,11 @@ include_once "../function/format_data.php";
                         echo '<div id="erro">Problema ao inserir dados da reuni&atilde;o</div>';
                         echo '<script>location.href="#alertas";</script>';
                     }
-            }}?>
+        }?>
             </div>
         </div><!--conteudo-->
 
     <?php include("menu.php");?>
-
-
 <div style="clear: both"></div>
 	</div><!--corpo-->
     <div id="footer" style="float:right;">
